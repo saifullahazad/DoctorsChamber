@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Life</string>
+    <string name="call_hotline">16000</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Menu -->
+    <string name="menu_logout">Log Out</string>
+    <string name="menu_now_request">Request Now</string>
+    <string name="menu_pending_requests">Pending Requests</string>
+    <string name="menu_closed_requests">Closed Requests</string>
+    <string name="menu_canceled_requests">Canceled Requests</string>
+
+    <!-- Title -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_registration">Register As Patient</string>
+    <string name="title_fragment_request">Request for Doctor</string>
+    <string name="title_fragment_gmap">Google Location</string>
+    <string name="title_fragment_pending_requests">Pending Requests List</string>
+    <string name="title_fragment_closed_requests">Closed Requests List</string>
+    <string name="title_fragment_request_detail">Request Detail</string>
+
+    <!-- Action -->
+    <string name="action_button_sign_in">Sign In</string>
+    <string name="action_button_registration">Register As Patient</string>
+    <string name="action_button_addrequest">Add New Request</string>
+    <string name="action_button_gmap_show">Set Location</string>
+    <string name="action_button_request">Request Now</string>
+    <string name="action_button_request_detail_link">Detail</string>
+    <string name="action_button_cancel">Cancel</string>
+    <string name="action_button_done">Done</string>
+    <string name="action_button_complete">Complete</string>
+    <string name="action_button_ok">Ok</string>
+    <string name="action_button_back">Back</string>
+    <string name="action_button_confirm">Confirm</string>
+
+    <!-- Hint -->
+    <string name="radioButton_male">Male</string>
+    <string name="radioButton_female">Female</string>
+    <string name="radioButton_other">Other</string>
+    <string name="radioButton_patientOwn">Myself</string>
+    <string name="radioButton_patientRelative">Relative</string>
+    <string name="radioButton_holdingtype_owner">Owner</string>
+    <string name="radioButton_holdingtype_rent">Rent</string>
+    <string name="radioButton_usertype_patient">Patient</string>
+    <string name="radioButton_usertype_doctor">Doctor</string>
+
+    <!-- Hint -->
+    <string name="prompt_relation">Relation</string>
+    <string name="prompt_name">Full Name</string>
+    <string name="prompt_mobile">Mobile</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_dob">Date of Birth</string>
+    <string name="prompt_age">Age</string>
+    <string name="prompt_location">Location</string>
+    <string name="prompt_ambulance">Ambulance</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="prompt_preDiseases">Previous Diseases</string>
+    <string name="prompt_diabetes">Diabetes?</string>
+    <string name="prompt_pressure">Blood pressure?</string>
+    <string name="prompt_asthma">Asthma?</string>
+    <string name="prompt_currentDiseases">Current Diseases</string>
+    <string name="prompt_symptom">Symptom</string>
+    <string name="prompt_payment">Paid?</string>
+
+    <!-- Error Message -->
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_confirm_password">Password is not match with confirm password</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Table Header -->
+    <string name="th_request_date">Date</string>
+    <string name="th_request_time">Time</string>
+    <string name="th_request_detail">Detail</string>
+
+    <!-- API URL -->
+    <string name="API_Register">http://subra-demo.ga/dc/public/api/user/register</string>
+    <string name="API_Login">http://subra-demo.ga/dc/public/api/user/login</string>
+    <string name="API_Logout">http://subra-demo.ga/dc/public/api/user/logout</string>
+    <string name="API_RequestNow">http://subra-demo.ga/dc/public/api/treatment/request</string>
+    <string name="API_MyPendingRequests">http://subra-demo.ga/dc/public/api/treatment/mypendingrequests</string>
+    <string name="API_MyClosedRequests">http://subra-demo.ga/dc/public/api/treatment/myclosedrequests</string>
+    <string name="API_RequestUpdate">http://subra-demo.ga/dc/public/api/treatment/update</string>
+
+    <!-- Array List -->
+    <string name="prompt_preference_doctor">Select Doctor Gender</string>
+    <string-array name="preference_doctor_arrays">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>Select Doctor Gender</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
